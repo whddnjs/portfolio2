@@ -5,6 +5,8 @@ module.exports = {
     screens: {
       // 태블릿
       t: { max: '992px' },
+      // 그 사이
+      b: { max: '768px' },
       // 모바일
       m: { max: '576px' },
     },

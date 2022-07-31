@@ -43,3 +43,7 @@
   background-size: cover;
   background-position: center;
 }
+
+.shadow_ {
+  box-shadow: 1rem 1rem 1rem rgb(0 0 0 / 15%);
+}

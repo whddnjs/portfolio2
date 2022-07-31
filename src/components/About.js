@@ -4,8 +4,10 @@ import { BsFillTelephoneFill } from 'react-icons/bs';
 
 const About = () => {
   return (
-    <div className="py-10 w-full bg-[#eee]">
-      <h1 className="mb-10 text-5xl text-center font-nanum-eb">ABOUT ME</h1>
+    <div id="about" className="py-10 bg-[#eee] w-full">
+      <div className="table pb-2 mx-auto mb-8 text-5xl border-b border-black font-nanum-eb">
+        ABOUT ME
+      </div>
       <div className="w-full px-10 text-lg leading-loose text-center">
         <p>
           ▪ 어려서부터 컴퓨터를 좋아해서 자연스레 프로그래밍에 관심이
@@ -17,7 +19,7 @@ const About = () => {
           개발자를 목표로 하고 있습니다.
         </p>
       </div>
-      <div className="flex justify-center w-full mt-10">
+      <div className="flex justify-center w-full mt-8">
         <div className="w-[60%] justify-around flex t:flex-col">
           <div></div>
           <div className="flex items-center justify-center t:mb-2">
